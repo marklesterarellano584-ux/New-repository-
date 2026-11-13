@@ -34,39 +34,26 @@ It then suggests which products need to be restocked and how many should be orde
 
 They can use SmartStock through a computer or smartphone, especially when checking their inventory or preparing to order new supplies.
 
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
-
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+For this project, we will use sample grocery sales data that we create ourselves. The data will include product names, dates, and the number of items sold each day. We can also include the current stock of each product.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Here is an example of our sample sales data:
 
+## Sample Sales Data
+
+Product | Monday | Tuesday | Wednesday
+--- | --- | --- | ---
+Bottled water | 20 | 25 | 30
+Canned sardines | 12 | 10 | 15
+Instant noodles | 18 | 22 | 20
+Milk | 10 | 8 | 12
+Eggs (trays) | 5 | 7 | 6
+
+For the AI method, we will use linear regression to study sales patterns and estimate how many products might be sold in the coming days.
+
+The system will use these predictions to recommend which products need restocking and how many should be ordered.
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
 ## What next?
 
