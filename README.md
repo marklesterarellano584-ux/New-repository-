@@ -11,28 +11,24 @@ Small grocery stores sometimes struggle to manage their inventory. Some products
 
 SmartStock aims to help solve this problem by using past sales records to predict future product demand. This project is important because it can help small grocery owners make better decisions about purchasing and restocking products.
 
-Problems SmartStock aims to solve
-1.)Products running out of stock.
 
-2.)Overstocking and wasted products.
+### Problems SmartStock aims to solve
 
-3.)Expired grocery items
-
-4.)Difficulty predicting customer demand.
-
-5.)Poor inventory tracking.
-
-6.)Unnecessary restocking expenses.
-
-7.)Lost sales due to unavailable products.
+1. Products running out of stock.
+2. Overstocking and wasted products.
+3. Expired grocery items.
+4. Difficulty predicting customer demand.
+5. Poor inventory tracking.
+6. Unnecessary restocking expenses.
+7. Lost sales due to unavailable products.
 
 
 ## How is it used?
-Grocery owners enter their previous sales records into SmartStock. The system looks at the data and predicts which products customers are likely to buy in the coming days.
+Grocery owners would enter their previous sales records into SmartStock. The system would analyze the data and predict which products customers are likely to buy in the coming days.
 
-It then suggests which products need to be restocked and how many should be ordered. This helps grocery owners avoid running out of popular products or buying more than they need.
+It would then suggest which products need to be restocked and how many should be ordered. This could help grocery owners avoid running out of popular products or buying more than they need.
 
-They can use SmartStock through a computer or smartphone, especially when checking their inventory or preparing to order new supplies.
+They could use SmartStock through a computer or smartphone, especially when checking their inventory or preparing to order new supplies.
 
 ## Data sources and AI methods
 For this project, we will use sample grocery sales data that we create ourselves. The data will include product names, dates, and the number of items sold each day. We can also include the current stock of each product.
@@ -51,7 +47,8 @@ Eggs (trays) | 5 | 7 | 6
 
 For the AI method, we will use linear regression to study sales patterns and estimate how many products might be sold in the coming days.
 
-The system will use these predictions to recommend which products need restocking and how many should be ordered.
+The system will use these predictions to recommend which products need restocking and how many should be ordered.  
+The sample data is only for demonstration purposes. A larger dataset covering several weeks or months would be needed to make more reliable predictions.
 
 ## Challenges
 SmartStock may face some challenges when predicting product demand. Its predictions may not always be accurate, especially if the sales records are incomplete or outdated.
