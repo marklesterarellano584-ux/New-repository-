@@ -1,4 +1,4 @@
-# SmartStock: An AI-Based Inventory Predictor for Small Businesses
+# SmartStock: An AI-Based Inventory Predictor for Small Grocery Stores
 
 Final project for the Building AI course
 
