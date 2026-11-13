@@ -4,7 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-SmartStock is an AI-based system designed to help small businesses manage their inventory. It analyzes past sales data to predict future product demand and recommend when products should be restocked, helping businesses avoid shortages and excess inventory.
+SmartStock is an AI-based system designed to help small grocery stores manage their inventory. It analyzes past sales data to predict future product demand and recommend when products should be restocked, helping grocery owners avoid shortages and excess inventory.
 
 ## Background
 Small grocery stores sometimes struggle to manage their inventory. Some products sell quickly and run out of stock, while others remain on shelves for a long time. This can lead to lost sales, wasted products, and unnecessary expenses.
