@@ -52,18 +52,23 @@ Eggs (trays) | 5 | 7 | 6
 For the AI method, we will use linear regression to study sales patterns and estimate how many products might be sold in the coming days.
 
 The system will use these predictions to recommend which products need restocking and how many should be ordered.
-## Challenges
 
+## Challenges
+SmartStock may face some challenges when predicting product demand. Its predictions may not always be accurate, especially if the sales records are incomplete or outdated.
+
+Unexpected events, such as holidays, sudden price changes, or supplier delays, may also affect product demand. The system also depends on the grocery owner entering and updating the correct sales and inventory information.
+
+Because of these limitations, SmartStock should be used as a guide rather than a replacement for the owner's decisions.
 
 ## What next?
+In the future, SmartStock could be improved by using more sales data to make its predictions more accurate. It could also include features that track current inventory, send low-stock alerts, and help grocery owners monitor their products more easily.
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+To develop the project further, we would need programming skills, knowledge of AI and machine learning, and access to more realistic grocery sales data. We may also need feedback from grocery owners to make sure the system meets their needs.
 
 
-## Acknowledgments
+## Acknowledgment
+This project was inspired by the challenges small grocery stores face when managing their inventory.
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+The idea and project were developed as part of the Building AI course by the University of Helsinki and Reaktor, with some assistance from AI tools during the planning and writing process.
+
+The sample sales data was also created specifically for this project and does not represent actual grocery store records.
